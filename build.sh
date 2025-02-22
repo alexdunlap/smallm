@@ -1,4 +1,4 @@
-rm ./scripts/python/smallm
+rm -f ./scripts/python/smallm
 ln -s ../../smallm ./scripts/python/smallm
 python3 -m venv venv
 source ./venv/bin/activate
